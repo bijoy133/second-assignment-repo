@@ -9,3 +9,146 @@
   font-weight: <weight>;
   font-style: normal;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.orange{
+    color: orange;
+
+}
+.skyblue{
+    color: skyblue;
+}
+.color1{
+    color: #05D4DF;
+}
+.color-2{
+  color: #5D58EF;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius:12px;
+    border: none;
+}
+/* navbar style */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+ 
+    margin: 0 100px;
+}
+.school{
+    align-items: center;
+}
+.brand{
+    font-weight: 700px;
+    font-size: 2rem;
+    
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+    
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+/* mobile view */
+.menu-toggle{
+    font-size: 1.8rem;
+    display:none;
+    cursor: pointer;
+}
+.hr{
+    display:none;
+}
+
+/* banner style */
+.banner{
+    justify-content: space-between;
+    align-items: center;
+    margin:0 100px;
+
+
+}
+.banner-container{
+    
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.btn-primary2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color:black;
+    padding: 10px 20px;
+    border-radius:12px;
+    border: none;
+}
+.banner-img img{
+    width:400px;
+}
+.banner-title{
+ font-size: 3.5rem;
+ font-weight: bold;
+ color: black;
+}
+#title1{
+ color: orange;
+}
+#title2{
+ color:  skyblue;
+}
+.banner-description{
+    font-size: 1.25rem;
+    color: black;
+}
+
+/* responsive mobile device */
+@media screen and (max-width: 576px) {
+    .menu-toggle, .hr{
+        display: block;
+   
+    }
+  
+   .brand, .nav-links, .btn-primary{
+    display: none;
+   }
+   .navbar{
+  
+    justify-content: space-between;
+    margin: 0 50px;
+   }
+   .banner{
+    flex-direction: column;
+    justify-content: center;
+   }
+   .banner-container{
+    order: 2;
+    text-align: center;
+   
+   }
+   .banner-img img{
+    order: 1;
+    margin: 10px 10px;
+   
+  
+    
+   }
+   
+
+}
