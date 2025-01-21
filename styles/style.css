@@ -44,8 +44,8 @@
 .navbar{
     justify-content: space-between;
     align-items: center;
- 
-    margin: 0 100px;
+    max-width: 1100px;
+   
 }
 .school{
     align-items: center;
@@ -80,7 +80,7 @@
 .banner{
     justify-content: space-between;
     align-items: center;
-    margin:0 100px;
+    max-width: 1100px;
 
 
 }
@@ -117,12 +117,86 @@
     font-size: 1.25rem;
     color: black;
 }
+/* main style  */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main> section{
+    margin-top: 120px;
+}
+/* standard card style */
+.standard{
+    background-image: url(../assets/bg.png);
+    margin: 0 auto;
+    text-align: center;
+    
+  
+}
+.card-container{
+    margin: 0 auto;
+     max-width: 1100px;
+     gap: 30px;
+     justify-content: space-around;
+     align-items: center;
+
+    
+}
+.card1{
+    max-width:300px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient( #DEF5FF, white);
+    box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.05);
+    border: none;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card2{
+    max-width:300px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient( #FFF4DC, white);
+    box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.05);
+    border: none;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card3{
+    max-width:300px;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient( #F2E8FF, white);
+    box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.05);
+    border: none;
+    padding: 40px;
+    border-radius: 16px;
+}
+.card-title{
+    font-size: 1.5rem;
+    color: #202020;
+    font-weight: 700;
+}
+.card-description{
+    font-size: 1rem;
+    color: #808080;
+}
+.standard-title{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+/* our stories */
+
 
 /* responsive mobile device */
 @media screen and (max-width: 576px) {
     .menu-toggle, .hr{
         display: block;
+       
    
+    }
+    .hr{
+        margin-top: 20px;
     }
   
    .brand, .nav-links, .btn-primary{
@@ -133,7 +207,7 @@
     justify-content: space-between;
     margin: 0 50px;
    }
-   .banner{
+   .banner, .card-container{
     flex-direction: column;
     justify-content: center;
    }
@@ -146,9 +220,8 @@
     order: 1;
     margin: 10px 10px;
    
-  
-    
    }
+ 
    
 
 }
