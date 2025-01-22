@@ -218,7 +218,7 @@ main> section{
 
 }
 .our-stories img{
-    width: 100%;
+    
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
@@ -273,31 +273,31 @@ main> section{
 #btn-left-1{
    position: absolute;
    left: 20%;
-   bottom:38%;
+   bottom:41%;
 
 }
 #btn-right1{
     position: absolute;
     left: 5%;
-    bottom:72%;
+    bottom:68%;
 }
 #btn-right2{
     position: absolute;
     left: 55%;
-    bottom: 72%;
+    bottom: 68%;
 }
 
 #btn-right3{
     position: absolute;
     left: 5%;
-    bottom:20%;
+    bottom:15%;
     
 }
 
 #btn-right4{
   position: absolute;
   left: 55%;
-  bottom: 20%;
+  bottom: 15%;
    
 }
 
@@ -325,12 +325,12 @@ main> section{
 /* footer style */
 footer{
     margin: 0 auto;
-    background-color: black;
+   
 }
 .footer-s{
     max-width: 1440px;
     margin: 0 auto;
- 
+    background-color: black;
     color: white;
 }
 
