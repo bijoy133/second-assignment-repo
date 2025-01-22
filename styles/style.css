@@ -392,6 +392,9 @@ footer{
     font-weight: bold;
    
    }
+   .our-stories img{
+    width: 100%;
+   }
    .banner-container{
     order: 2;
     text-align: center;
